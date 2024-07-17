@@ -1,0 +1,16 @@
+//COMPONENTES
+
+/*Os componentes sao criados dentro da pasta "components" 
+e eles possuem uma estrutura igual, exemplo:  */
+
+Function "Nome do componente"(){
+    return(
+        <div>
+            //Aqui dentro são adicionados os dados, exemplo:
+            <p>alguma frase qualquer</p>
+        </div>
+    )
+
+}
+
+export default "Nome do componente/funcao"
