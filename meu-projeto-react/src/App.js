@@ -1,5 +1,6 @@
 import './App.css';
 import Condicional from './components/Condicional';
+import OutraLista from './components/OutraLista';
 
 
 function App() {
@@ -10,6 +11,8 @@ function App() {
     <div className="App">
 
    <h1>Redenreização de Listas</h1>
+   <OutraLista itens ={meusItens} />
+   <OutraLista itens ={[]} />
    
 
     </div>

@@ -1,11 +1,16 @@
-function OutraLista({itens}){
+function OutraLista({ itens }) {
 
-return(
-    <>
-    
-    
-    </>
-)
+    return (
+        <>
+            <h3>Lista de itens</h3>
+            {itens.length > 0?(
+            itens.map((item) => (
+                <p>{item}</p>
+            ))) :(
+                <p>Não possui itens</p>
+            )}
+        </>
+    )
 
 }
 
