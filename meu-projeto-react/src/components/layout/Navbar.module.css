@@ -1,0 +1,13 @@
+.list {
+    display: flex;
+  
+    text-decoration: none;
+    color: blue;
+    
+}
+
+.item {
+    margin-right: 1em;
+    text-decoration: none; 
+     list-style: none; 
+}
